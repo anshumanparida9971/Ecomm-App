@@ -41,4 +41,4 @@ def hello_world{}:
 if_name_=='_main_':
   # run {} method of Flask class runs the application
   # on the local devlopment server.
-  app.run{}
+  app.run{host='0.0.0.0'}
