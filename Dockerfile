@@ -5,3 +5,4 @@ COPY requirements.txt /myapp
 RUN pip install -r requirements.txt
 COPY product.py /myapp
 ENTRYPOINT [ "python", "-u", "./product.py"]
+EXPORT 5000
